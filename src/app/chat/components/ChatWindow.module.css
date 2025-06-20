@@ -1,0 +1,155 @@
+.chatWindow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.noChatSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f5f5f5;
+}
+
+.chatTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.actions {
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  letter-spacing: 2px;
+}
+
+.messageList {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loader {
+  margin: auto;
+  font-size: 1rem;
+  color: #888;
+}
+
+.messageRow {
+  display: flex;
+  gap: 12px;
+  max-width: 75%;
+}
+
+.otherMessageRow {
+  align-self: flex-start;
+}
+
+.myMessageRow {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.messageContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.myMessageRow .messageContent {
+  align-items: flex-end;
+}
+
+.userName {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.messageBubble {
+  padding: 10px 14px;
+  border-radius: 12px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.otherMessageBubble {
+  background-color: #ffffff;
+  border-top-left-radius: 0;
+}
+
+.myMessageBubble {
+  background-color: #95ec69;
+  border-top-right-radius: 0;
+}
+
+.systemMessage {
+  align-self: center;
+  color: #999;
+  font-size: 12px;
+  padding: 4px 12px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-top: 1px solid #e7e7e7;
+  background-color: #f5f5f5;
+  gap: 12px;
+}
+
+.textInput {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.textInput:focus {
+  box-shadow: 0 0 0 2px rgba(7, 193, 96, 0.3);
+}
+
+.sendButton {
+  padding: 10px 24px;
+  border: none;
+  background-color: #07c160;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.sendButton:hover {
+  background-color: #06a854;
+} 

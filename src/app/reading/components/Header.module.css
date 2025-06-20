@@ -1,0 +1,65 @@
+.headerBg {
+  background: #edeef0;
+  padding: 48px 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.logoImg {
+  height: 38px;
+  margin-right: 16px;
+}
+.logoText {
+  font-size: 48px;
+  font-weight: 700;
+  color: #23262f;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+.searchRow {
+  width: 50vw;
+  background: #fff;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  height: 50px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.03);
+  margin-bottom: 32px;
+}
+.searchIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #aeb3b9;
+  background: transparent;
+  width: 100%;
+}
+.hotwordsRow {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.hotword {
+  background: #e3e5e7;
+  color: #8a919f;
+  font-size: 14px;
+  border-radius: 32px;
+  padding: 8px 32px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.hotwordActive {
+  background: #dde3ea;
+  color: #23262f;
+}

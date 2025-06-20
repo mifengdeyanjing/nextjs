@@ -1,0 +1,14 @@
+.avatar {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  flex-shrink: 0; /* Prevents avatar from shrinking in flex layouts */
+}
+
+.letter {
+  line-height: 1;
+} 

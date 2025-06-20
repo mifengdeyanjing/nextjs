@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/app", //全局-配置绝对导入
+    "paths": { //特定-配置别名
+      "@/styles/*": ["styles/*"],
+      "@/components/*": ["components/*"]
+    }
+  }
+}
