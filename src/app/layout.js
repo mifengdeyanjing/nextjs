@@ -1,6 +1,8 @@
-import './globals.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { ConfigProvider } from 'antd';
+
 import zhCN from 'antd/locale/zh_CN';
+import './globals.css';
 
 export const metadata = {
   title: '我的应用中心',
@@ -33,6 +35,7 @@ export default function RootLayout({ children }) {
           }}
         >
           {children}
+          <SpeedInsights />
         </ConfigProvider>
       </body>
     </html>
